@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T08:58:07.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3huIQygZPADP7kcWPfFu" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T09:00:21.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fRE3rnpgwCXWQDWcb23q" version="20.5.1" type="github">
   <diagram id="qRshpJRFcotMExGMsKns" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-6" value="发出CH声明，&lt;br&gt;创建新簇" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="607" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-10" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="135" width="40" height="30" as="geometry" />
@@ -69,7 +69,7 @@
         <mxCell id="GcWAjgBpagmhk9RtPRgr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-25" target="GcWAjgBpagmhk9RtPRgr-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GcWAjgBpagmhk9RtPRgr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-25">
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-25" target="GcWAjgBpagmhk9RtPRgr-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="270" as="targetPoint" />
             <Array as="points">
@@ -146,13 +146,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-62" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;shadow=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="460" width="100" height="60" as="geometry" />
+          <mxGeometry x="330" y="500" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-21" target="GcWAjgBpagmhk9RtPRgr-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-21" value="检查当前CM状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="607" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-40" target="GcWAjgBpagmhk9RtPRgr-21">
           <mxGeometry relative="1" as="geometry">
