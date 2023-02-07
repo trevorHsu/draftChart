@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T07:32:04.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="d3a26HjFz5fJLmJEfSMu" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T08:01:27.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0seu1q5ONIgv7QNtnD5m" version="20.5.1" type="github">
   <diagram id="qRshpJRFcotMExGMsKns" name="第 1 页">
-    <mxGraphModel dx="751" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="900" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-1" value="邻居发现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-2" target="GcWAjgBpagmhk9RtPRgr-5">
           <mxGeometry relative="1" as="geometry" />
@@ -16,20 +16,113 @@
         <mxCell id="GcWAjgBpagmhk9RtPRgr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-2" target="GcWAjgBpagmhk9RtPRgr-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GcWAjgBpagmhk9RtPRgr-2" value="簇首选择，&lt;br&gt;有合适的簇首" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-2" value="簇首选择，&lt;br&gt;有合适的CH" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GcWAjgBpagmhk9RtPRgr-5" value="邻居发现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-5" target="GcWAjgBpagmhk9RtPRgr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-5" value="向CH申请入簇" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GcWAjgBpagmhk9RtPRgr-6" value="邻居发现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-6" target="GcWAjgBpagmhk9RtPRgr-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-6" value="发出CH声明，&lt;br&gt;创建新簇" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-10" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="135" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GcWAjgBpagmhk9RtPRgr-11" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="135" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-13" target="GcWAjgBpagmhk9RtPRgr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-13" value="检查与CH的连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-14" target="GcWAjgBpagmhk9RtPRgr-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="390" />
+              <mxPoint x="120" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-14" target="GcWAjgBpagmhk9RtPRgr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-14" value="与CH的连接&lt;br&gt;断开" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-18" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-20" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="276" y="365" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-21" target="GcWAjgBpagmhk9RtPRgr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-21" value="检查当前CM状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-23" target="GcWAjgBpagmhk9RtPRgr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-23" value="开始" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-25" target="GcWAjgBpagmhk9RtPRgr-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="390" />
+              <mxPoint x="580" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-25" target="GcWAjgBpagmhk9RtPRgr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-25" value="有CM离开簇" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-27" value="收到入簇请求" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-29" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="548" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-30" target="GcWAjgBpagmhk9RtPRgr-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="520" />
+              <mxPoint x="530" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GcWAjgBpagmhk9RtPRgr-30" target="GcWAjgBpagmhk9RtPRgr-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="560" />
+              <mxPoint x="520" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-30" value="无CM存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-32" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="440" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-34" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcWAjgBpagmhk9RtPRgr-36" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="537" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
