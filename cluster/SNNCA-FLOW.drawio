@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T03:48:22.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="r66gE50gH2iawLCxnRKK" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T05:40:44.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uRXVhPvpjKPRNeRLB9GY" version="20.8.23" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1536" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-24" target="Gv1gd0p0m8v2-Ml-v7k9-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-24" value="向邻居中的CM发出JOIN报文" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-24" value="向邻居中的CM&lt;br&gt;发出JOIN报文" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="520" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-25" target="Gv1gd0p0m8v2-Ml-v7k9-26">
@@ -57,7 +57,7 @@
             <mxPoint x="110" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-26" value="加入簇，转为CM类型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-26" value="加入簇，&lt;br&gt;转为CM类型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="689" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-28" target="Gv1gd0p0m8v2-Ml-v7k9-30">
