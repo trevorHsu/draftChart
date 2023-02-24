@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T10:09:10.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PAOecZZRmh79LMq41EAj" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T10:18:39.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="r55q2R4hdmk_VxXYqYxA" version="20.8.23" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3772" dy="1596" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,6 +214,16 @@
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-112" target="Gv1gd0p0m8v2-Ml-v7k9-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1394" y="2300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2272" y="255" />
+              <mxPoint x="2272" y="2244" />
+              <mxPoint x="1394" y="2244" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-112" value="节点类型是否&lt;br&gt;为RN" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2046" y="204" width="206" height="101" as="geometry" />
         </mxCell>
@@ -267,10 +277,12 @@
             <mxPoint x="749.454545454545" y="1123.454545454545" as="targetPoint" />
             <mxPoint x="1391" y="1607" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="1322" y="1896" />
+              <mxPoint x="1322" y="2262" />
               <mxPoint x="1397" y="2262" />
-              <mxPoint x="1397" y="2200" />
-              <mxPoint x="1403" y="2200" />
-              <mxPoint x="1403" y="2082" />
+              <mxPoint x="1397" y="2286" />
+              <mxPoint x="938" y="2286" />
+              <mxPoint x="938" y="2082" />
               <mxPoint x="750" y="2082" />
             </Array>
           </mxGeometry>
@@ -279,7 +291,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-127" value="&lt;div&gt;节点类型转为RN&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1289.5" y="1276" width="226" height="90" as="geometry" />
+          <mxGeometry x="1244" y="1276" width="226" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-129" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1244" y="683" width="60" height="30" as="geometry" />
@@ -300,7 +312,14 @@
           <mxGeometry x="1461" y="673" width="206" height="101" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-134" target="Gv1gd0p0m8v2-Ml-v7k9-151">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1704" y="885" />
+              <mxPoint x="1704" y="1368" />
+              <mxPoint x="1572" y="1368" />
+              <mxPoint x="1572" y="1874" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-134" value="&lt;div&gt;节点类型转为报文指定的类型&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1459" y="840" width="226" height="90" as="geometry" />
@@ -348,12 +367,12 @@
           <mxGeometry x="823" y="1077" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-151" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CHANGE_STAT报文给子节点&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1348" y="2172" width="226" height="90" as="geometry" />
+          <mxGeometry x="1217" y="1806" width="226" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-153" target="Gv1gd0p0m8v2-Ml-v7k9-130">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-153" target="Gv1gd0p0m8v2-Ml-v7k9-164">
+        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gv1gd0p0m8v2-Ml-v7k9-153" target="Gv1gd0p0m8v2-Ml-v7k9-164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-153" value="是否与父级&lt;br&gt;通信断开" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -372,10 +391,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-164" value="&lt;div&gt;簇层级重置为0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1280" y="1582" width="226" height="90" as="geometry" />
+          <mxGeometry x="1198" y="1520" width="226" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-170" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="551" y="191" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv1gd0p0m8v2-Ml-v7k9-173" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2275" y="212" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
