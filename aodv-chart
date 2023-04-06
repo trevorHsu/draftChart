@@ -1,9 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T03:59:02.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.4" etag="R6fT2mwmM33FN0bRjSb-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T09:00:57.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="AbpvVIoAmKgwUkippqKz" version="21.1.4" type="github">
   <diagram name="Page-1" id="OtSypCeUX7icdMVwlrkw">
-    <mxGraphModel>
+    <mxGraphModel dx="1049" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ug0axpT1yNgVewxSRURs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-1" target="Ug0axpT1yNgVewxSRURs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;开始&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-2" target="Ug0axpT1yNgVewxSRURs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;节点接收RREQ分组&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="329" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-3" target="Ug0axpT1yNgVewxSRURs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-3" target="Ug0axpT1yNgVewxSRURs-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="430" />
+              <mxPoint x="150" y="349" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是否丢弃该分组&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-4" target="Ug0axpT1yNgVewxSRURs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;建立到源节点的反向路由&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="490" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-5" target="Ug0axpT1yNgVewxSRURs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-5" target="Ug0axpT1yNgVewxSRURs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;是否存在与本节点所属簇相同&lt;br&gt;的一跳邻居&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="163.75" y="562" width="242.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-6" target="Ug0axpT1yNgVewxSRURs-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-6" value="计算K近邻节点，&lt;br&gt;将这些节点设为待转发节点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="335" y="654" width="186" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-7" target="Ug0axpT1yNgVewxSRURs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-7" value="将满足条件的邻居节点设为待转发节点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="63" y="654" width="152.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-8" value="向待转发节点发送RREQ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="768" width="175" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
