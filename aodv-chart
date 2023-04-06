@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T09:12:24.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vl-TrUKYrGTdQf47C4vS" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T16:30:43.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gJRtLGZ4Sxj2SOuXM6Yn" version="21.1.4" type="github">
   <diagram name="Page-1" id="OtSypCeUX7icdMVwlrkw">
-    <mxGraphModel dx="1580" dy="656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3153" dy="1558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,6 +107,171 @@
         </mxCell>
         <mxCell id="Ug0axpT1yNgVewxSRURs-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="136.75" y="678" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-43" target="Ug0axpT1yNgVewxSRURs-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-43" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;开始&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="289" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-45" target="Ug0axpT1yNgVewxSRURs-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-45" value="目的节点接收RREQ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1019.5" y="354" width="141" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-46" target="Ug0axpT1yNgVewxSRURs-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-46" value="沿反向路由&lt;br&gt;向源节点发送RREP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1014.5" y="420" width="151" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-47" target="Ug0axpT1yNgVewxSRURs-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-47" target="Ug0axpT1yNgVewxSRURs-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1263" y="538" />
+              <mxPoint x="1263" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;非主路由节点是否收到&lt;br&gt;邻居节点发出的RREP&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="962.5" y="498" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-48" target="Ug0axpT1yNgVewxSRURs-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-48" target="Ug0axpT1yNgVewxSRURs-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1268.8696713654895" y="531.8261347231658" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1263" y="653" />
+              <mxPoint x="1263" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-48" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;本节点与RREP消息的发出节点&lt;br&gt;所属簇是否相同&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="952" y="611" width="276" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-49" target="Ug0axpT1yNgVewxSRURs-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1263" y="747" />
+              <mxPoint x="1263" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-49" value="将该邻居节点记录到&lt;br&gt;备份路由表中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1013.25" y="724" width="153.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-58" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="578" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="691" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;否&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="513" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-62" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;否&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="627" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-78" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2579" y="489" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-89" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2573" y="654" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-90" target="Ug0axpT1yNgVewxSRURs-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-90" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;开始&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2528" y="307" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-91" target="Ug0axpT1yNgVewxSRURs-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-91" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;缓存中是否有&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;发往目的节点的数据分组&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="383.5" width="231" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-93" target="Ug0axpT1yNgVewxSRURs-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-93" target="Ug0axpT1yNgVewxSRURs-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-93" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;主路由表中是否存在&lt;br&gt;到达目的节点的有效路由&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="543" width="231" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-96" target="Ug0axpT1yNgVewxSRURs-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2566" y="803" />
+              <mxPoint x="3303" y="803" />
+              <mxPoint x="3303" y="363" />
+              <mxPoint x="2566" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-96" value="向该主路由表项的&lt;br&gt;下一跳转发数据分组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2468.75" y="703" width="193.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-98" target="Ug0axpT1yNgVewxSRURs-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-98" target="Ug0axpT1yNgVewxSRURs-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3050.263055098684" y="598.7368421052631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-98" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;该数据分组的&lt;br&gt;路由断开标识是否关闭&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2746" y="546.5" width="231" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.544;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-100" target="Ug0axpT1yNgVewxSRURs-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-100" target="Ug0axpT1yNgVewxSRURs-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-100" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;备份路由表中是否存在&lt;br&gt;到达目的节点的有效路由&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3051" y="550" width="231" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-103" target="Ug0axpT1yNgVewxSRURs-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3162" y="801" />
+              <mxPoint x="3302" y="801" />
+              <mxPoint x="3302" y="363" />
+              <mxPoint x="2566" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-103" value="向该备份路由表项的&lt;br&gt;下一跳转发数据分组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="3064.75" y="703" width="193.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-105" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3176" y="656" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ug0axpT1yNgVewxSRURs-106" target="Ug0axpT1yNgVewxSRURs-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2809.64652745864" y="418.0588522518383" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2862" y="833" />
+              <mxPoint x="3554" y="833" />
+              <mxPoint x="3554" y="590" />
+              <mxPoint x="3562" y="590" />
+              <mxPoint x="3562" y="364" />
+              <mxPoint x="2566" y="364" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-106" value="将数据分组的路由断开标识打开，&lt;br&gt;向与本节点所属簇相同的一跳邻居节点发送数据分组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2696" y="703" width="332" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Ug0axpT1yNgVewxSRURs-111" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2871" y="649" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
