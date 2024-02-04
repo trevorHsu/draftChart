@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T10:34:24.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="uhrp2SIrxBpHRKTC9qmV" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T10:36:32.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="eatsRhDVRpuvwHLl6PNK" version="23.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4074" dy="3060" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="3665" dy="2778" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-60" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-204" y="-744" width="1073" height="460" as="geometry" />
+          <mxGeometry x="-205" y="-709" width="1073" height="425" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="sj2lnTMcZ8h3ANVrbfql-0">
           <mxGeometry relative="1" as="geometry" />
@@ -108,16 +108,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-13" value="开始" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-147" y="-518.5" width="136" height="53" as="geometry" />
+          <mxGeometry x="-140" y="-500.5" width="136" height="53" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sj2lnTMcZ8h3ANVrbfql-14" target="sj2lnTMcZ8h3ANVrbfql-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-14" value="用户扫描二维码" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="96" y="-532.5" width="164" height="81" as="geometry" />
+          <mxGeometry x="103" y="-514.5" width="164" height="81" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-15" value="后台识别分享者的用户信息，&lt;br style=&quot;font-size: 16px;&quot;&gt;以及新用户的用户信息；&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;若判定是新用户，则为分享者添加积分奖励，&lt;br&gt;并记录该新用户的来源" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="376" y="-562" width="388" height="140" as="geometry" />
+          <mxGeometry x="383" y="-544" width="388" height="140" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sj2lnTMcZ8h3ANVrbfql-2" target="sj2lnTMcZ8h3ANVrbfql-4">
           <mxGeometry relative="1" as="geometry" />
@@ -147,7 +147,7 @@
           <mxGeometry x="-83" y="726" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-62" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;用户扫码图片裂变&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="157.5" y="-696" width="325" height="30" as="geometry" />
+          <mxGeometry x="156.5" y="-662" width="325" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sj2lnTMcZ8h3ANVrbfql-63" target="sj2lnTMcZ8h3ANVrbfql-43">
           <mxGeometry relative="1" as="geometry" />
