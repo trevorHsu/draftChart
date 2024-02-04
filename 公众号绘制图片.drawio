@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T10:02:25.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="k8LE8JQPNSrNAj-PbtGs" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T10:07:52.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="61zeJRC1q6JwaEK6rPnI" version="23.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="898" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="3492" dy="1582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -36,6 +36,18 @@
         </mxCell>
         <mxCell id="sj2lnTMcZ8h3ANVrbfql-11" value="得到绘制的图片，对图片进行二次加工，在图片下方添加二维码；&lt;br&gt;二维码中包含公众号的ID，用户的信息；&lt;br&gt;二维码用于分享扫描" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="125" y="1789" width="398" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="sj2lnTMcZ8h3ANVrbfql-12" value="将最终完成的图片推送给对应的用户" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="149.5" y="2062" width="349" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="sj2lnTMcZ8h3ANVrbfql-13" value="开始" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-845" y="209" width="175" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="sj2lnTMcZ8h3ANVrbfql-14" value="用户扫描二维码" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-877" y="401" width="231" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="sj2lnTMcZ8h3ANVrbfql-15" value="后台识别分享者的用户信息，&lt;br&gt;以及新用户的用户信息；&lt;br&gt;&lt;br&gt;若判定是新用户，则为分享者添加积分奖励，并记录该新用户的来源" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-877" y="613" width="232" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
